@@ -1,0 +1,16 @@
+h1 {
+  font-family: Merriweather, "Noto Serif TC", system-ui;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+h3 {
+  font-family: Merriweather, "Noto Serif TC", system-ui;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+p {
+  /* margin: 1.5rem 2rem 1rem; */
+  font-family: Merriweather Sans, "Noto Serif TC";
+  margin-top: 0;
+}
