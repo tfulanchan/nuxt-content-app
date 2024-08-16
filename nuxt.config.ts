@@ -37,4 +37,10 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: "",
   },
-});
+  app: {
+    head: {
+      titleTemplate: '%s | Practice makes perfect',
+      // title: 'Default Title', // This is the default title for pages without a specific title
+    },
+  },
+})
