@@ -44,6 +44,8 @@ export default {
     }
   }
 }
+import usePageTitle from '@/composables/usePageTitle'
+usePageTitle('Home')
 </script>
 
 <style scoped>
