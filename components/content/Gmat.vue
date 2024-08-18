@@ -1,4 +1,3 @@
-<!-- Quiz.client.vue -->
 <template>
   <NuxtLayout>
     <!-- <NuxtLayout name="content"> -->

@@ -2,18 +2,21 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   modules: [
     "@nuxt/content",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
     "@nuxtjs/color-mode",
   ],
+
   content: {
     highlight: {
       theme: "light-plus",
@@ -26,6 +29,7 @@ export default defineNuxtConfig({
       ]
     }
   },
+
   googleFonts: {
     families: {
       Merriweather: [400, 700],
@@ -34,13 +38,17 @@ export default defineNuxtConfig({
     },
     download: true, // Download the fonts and serve them locally
   },
+
   colorMode: {
     classSuffix: "",
   },
+
   app: {
     head: {
       titleTemplate: '%s | Practice makes perfect',
       // title: 'Default Title', // This is the default title for pages without a specific title
     },
   },
+
+  compatibilityDate: "2024-08-17",
 })
