@@ -40,7 +40,7 @@ export default {
   computed: {
     hideComponent() {
       // Check if the current route path is the home page
-      return this.$route.path === '/' || this.$route.path === '/gmat' || this.$route.path === '/gre';
+      return this.$route.path === '/' || this.$route.path === '/gmat' || this.$route.path === '/gre' || this.$route.path === '/finance';
     }
   }
 }
